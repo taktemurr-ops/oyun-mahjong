@@ -87,6 +87,7 @@ final mahjongConfig = GameConfig(
     ],
   seedColor: const Color(0xFFB3261E),
   icon: Icons.grid_view,
+  extraModes: [lessonMode(LessonCourse.classic)],
   rules: mahjongRules,
   buildPlay: (ctx) => TableView(ctx: ctx),
   tutorial: const [
